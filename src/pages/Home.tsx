@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Home() {
   return (
     <div style={{ textAlign: 'center', padding: '100px' }}>
-      <h1>SafetyLens.pro</h1>
+      <h1 className="text-5xl font-bold mb-4">SafetyLens.pro v2</h1>
       <p>AI-Powered Workplace Safety Analysis</p>
       <div style={{ marginTop: '30px' }}>
         <Link to="/upload">
